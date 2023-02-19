@@ -1,7 +1,8 @@
 http-server
 =====
 
-This project implemented a HTTP/SQLite server. The server maintains a request multiplexer and processes incoming requests using a SQLite database.
+This project implemented a HTTP/SQLite server. The server maintains a request multiplexer to process incoming requests.
+For each PUT/GET request, a corresponding store/query operation is implemented using the SQLite database.
 
 
 ## Usage 
